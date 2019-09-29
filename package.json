@@ -1,0 +1,17 @@
+{
+  "name": "twitch-draw",
+  "version": "0.0.1",
+  "description": "Lets the twitch chat draw a beautiful image - whether they like it or not",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -p 5432 index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
