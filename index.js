@@ -17,11 +17,11 @@ ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 // Define configuration options
 const opts = {
     identity: {
-        username: "ichbindernerd",
-        password: "q8sst2d9zna7jozaqidp9k3hpb1v17"
+        username: process.env.botaccount,
+        password: process.env.bottoken
     },
     channels: [
-        "ichbindernerd"
+        process.env.listeningchannel
     ]
 };
 
